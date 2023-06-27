@@ -28,8 +28,7 @@ const Eachquestion = () => {
               width: "400px",
               margin: "auto",
               padding: "10px",
-              display:'flex',
-              
+              display: "flex",
             }}
             sx={{ minWidth: "30vw" }}
           >
