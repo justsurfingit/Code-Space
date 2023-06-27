@@ -95,11 +95,12 @@ const QuesBank = () => {
             />
             {/* at last we have button here */}
             <Button
+            
               onClick={() => {
                 //we have to handle click here
               }}
               variant="contained"
-              style={{ width: "50%", marginInline: "auto" }}
+              style={{ width: "50%", marginInline: "auto" ,marginBlock:"1.4rem"}}
               color="success"
               onClick={(e) => {
                 if (que === "" || link == "" || notes == "") return;
@@ -117,7 +118,7 @@ const QuesBank = () => {
         {/* / */}
       </div>
       <div className="container">
-         <Eachquestion/>
+        <Eachquestion />
       </div>
     </div>
   );
