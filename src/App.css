@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Ysabeau Office", sans-serif;
+  font-family: "Ysabeau SC", sans-serif;
+}
+.input-handle {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+  margin-block: 3rem;
+  /* height: 200px; */
+  /* font-size: 3rem; */
+  /* background-color: aqua; */
+}
+
+.main-head {
+  font-size: 4rem;
+  text-align: center;
+}
+.sub-head {
+  font-size: 3rem;
+  text-align: center;
+  opacity: 0.6;
+}
+.questions-card{
+  display: flex;
+  flex-wrap: wrap;
+  gap:2rem;
+  padding: 1rem;
+  /* box-shadow: 2px solid black;
+   */
+   /* border: 2px solid red; */
+}
+.card-holder{
+  width: 25vw;
+}
